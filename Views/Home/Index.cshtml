@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="display-4">Shorten a url</div>
+    <div class=""><input class="form-control w-50 m-auto"/></div>
+    <button class="btn btn-secondary mt-4 mb-4">Go</button>
+    <div class="response text-success"></div>
+    
+</div>
+
+
+@section Scripts
+{
+    <script>
+    $(document).ready(function (){
+        $("button").unbind().bind('click', function (){
+            const userInput = $("input").val();
+            const responseDiv = $(".response");
+            if (userInput.length > 0){
+                $.ajax({
+                    type: "POST",
+                    url: "/home/SaveUrl",
+                    data: {url: userInput},
+                    success: function (response){
+                        responseDiv.addClass("text-success").removeClass("text-danger").text("bubbleit.no/"+response);
+                    },
+                    error: function (response){
+                        responseDiv.removeClass("text-success").addClass("text-danger").text("Please type a valid url");
+                    }                
+                });
+            }else{
+                responseDiv.removeClass("text-success").addClass("text-danger").text("Please type a valid url");
+            }
+        })
+    });
+    </script>
+}
