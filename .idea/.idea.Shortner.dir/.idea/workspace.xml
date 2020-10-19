@@ -4,28 +4,99 @@
     <projectFile>Shortner.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa131d2-c700-4391-85d0-ebd24e31f8b8" name="Default Changelist" comment="" />
+    <list default="true" id="7fa131d2-c700-4391-85d0-ebd24e31f8b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shortner.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shortner.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shortner.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shortner.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shortner.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Npgsql.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Npgsql.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Shortner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Text.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/System.Text.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/refs/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/refs/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Shortner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Shortner.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Shortner.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/47002240-EC38-46FD-BE4F-E63419744E68/15/MethodInfoExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Models/Urls.cs" />
-        <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Models/Url.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Home/Privacy.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -35,6 +106,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35027558" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30006123" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -83,14 +156,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603100647839</updated>
-      <workItem from="1603100654679" duration="7191000" />
+      <workItem from="1603100654679" duration="9640000" />
+      <workItem from="1603111595437" duration="4312000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
@@ -103,38 +177,128 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="310" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.920@0.0.1707.920" timestamp="1603108448006" />
-    <state width="1664" height="242" key="GridCell.Tab.0.bottom" timestamp="1603109041397">
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom" timestamp="1603117216031">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1664" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603109041397" />
-    <state width="1664" height="242" key="GridCell.Tab.0.center" timestamp="1603109041397">
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603117216031" />
+    <state width="1664" height="242" key="GridCell.Tab.0.center" timestamp="1603117216031">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1664" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1603109041397" />
-    <state width="1664" height="242" key="GridCell.Tab.0.left" timestamp="1603109041397">
+    <state width="1664" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1603117216031" />
+    <state width="1664" height="242" key="GridCell.Tab.0.left" timestamp="1603117216031">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1664" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1603109041397" />
-    <state width="1664" height="242" key="GridCell.Tab.0.right" timestamp="1603109041397">
+    <state width="1664" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1603117216031" />
+    <state width="1664" height="242" key="GridCell.Tab.0.right" timestamp="1603117216031">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1664" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1603109041397" />
+    <state width="1664" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1603117216031" />
+    <state width="1664" height="327" key="GridCell.Tab.1.bottom" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.1.center" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.1.left" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.1.right" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.2.bottom" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.2.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.2.center" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.2.center/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.2.left" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.2.left/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.2.right" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.2.right/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.3.bottom" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.3.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.3.center" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.3.center/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.3.left" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.3.left/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.3.right" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.3.right/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.4.bottom" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.4.bottom/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.4.center" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.4.center/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.4.left" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.4.left/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
+    <state width="1664" height="327" key="GridCell.Tab.4.right" timestamp="1603111768911">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="327" key="GridCell.Tab.4.right/0.0.1707.920@0.0.1707.920" timestamp="1603111768911" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Controllers/HomeController.cs</url>
-          <line>50</line>
+          <line>56</line>
           <properties documentPath="D:\GitFolders\Programming\C#\Testing\Shortner\Controllers\HomeController.cs" initialLine="36">
             <startOffsets>
-              <option value="1363" />
+              <option value="1547" />
             </startOffsets>
             <endOffsets>
-              <option value="1418" />
+              <option value="1602" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Startup.cs</url>
+          <line>41</line>
+          <properties documentPath="D:\GitFolders\Programming\C#\Testing\Shortner\Startup.cs" initialLine="38">
+            <startOffsets>
+              <option value="1312" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1312" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Startup.cs</url>
+          <line>32</line>
+          <properties documentPath="D:\GitFolders\Programming\C#\Testing\Shortner\Startup.cs" initialLine="31">
+            <startOffsets>
+              <option value="1003" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1027" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

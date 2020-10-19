@@ -35,6 +35,7 @@
       <e p="docker-compose.yml" t="Include" />
       <e p="Dockerfile" t="Include" />
       <e p="Models" t="Include">
+        <e p="ApplicationUser.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="Url.cs" t="Include" />
       </e>

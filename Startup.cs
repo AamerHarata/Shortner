@@ -12,35 +12,38 @@ using Shortner.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Shortner.Models;
 
 namespace Shortner
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, IHostEnvironment env)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
             Env = env;
         }
 
         public IConfiguration Configuration { get; }
-        public IHostEnvironment Env { get; }
+        public IWebHostEnvironment Env { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            if (Env.IsProduction())
-            {
-                services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-            }
-            else
+            if (Env.IsDevelopment())
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
                     options.UseSqlite(
                         Configuration.GetConnectionString("DefaultConnection")));
+                
             }
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            else
+            {
+                services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));  
+                
+            }
+            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();;
            services.AddRazorPages();

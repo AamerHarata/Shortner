@@ -1,4 +1,8 @@
+using System;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Shortner.Data
 {
@@ -6,6 +10,8 @@ namespace Shortner.Data
     {
         public static void Initializer(ApplicationDbContext context, bool isDevelopment)
         {
+            
+            
             if (!isDevelopment)
             {
                 context.Database.Migrate();

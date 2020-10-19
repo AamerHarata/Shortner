@@ -19,9 +19,10 @@ namespace Shortner
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                var env = services.GetService<IHostEnvironment>();
+                var env = services.GetService<IWebHostEnvironment>().IsDevelopment();
                 var context = services.GetRequiredService<ApplicationDbContext>();
-                ApplicationDbInitializer.Initializer(context, env.IsDevelopment());
+                
+                ApplicationDbInitializer.Initializer(context, env);
             }
             host.Run();
         }

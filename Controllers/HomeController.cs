@@ -28,14 +28,20 @@ namespace Shortner.Controllers
             if(string.IsNullOrWhiteSpace(id))
                 return View();
 
-            var url = _context.Urls.SingleOrDefault(x => x.Id == id)?.Link;
+            var url = _context.Urls.SingleOrDefault(x => x.Id == id);
+
+            if (url == null)
+            {
+                return RedirectToAction("Index", new {id = ""});
+            }
             
-            return Redirect(url);
+            return Redirect(url.Link);
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            var list = _context.Urls.ToList();
+            return View(list);
         }
 
 

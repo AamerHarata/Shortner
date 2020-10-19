@@ -1,6 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
+﻿@model IEnumerable<Url>
+@{
+    ViewData["Title"] = "All urls";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="text-center">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Url</th>
+            <th>Shortened Url</th>
+        </tr>
+        </thead>
+        @foreach (var url in Model)
+        {
+            <tr>
+                <td>@url.Link</td>
+                <td>bubbleit.no/@url.Id</td>
+            </tr>
+        }
+    </table>
+</div>
