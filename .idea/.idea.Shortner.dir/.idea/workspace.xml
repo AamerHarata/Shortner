@@ -20,9 +20,9 @@
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Data/ApplicationDbInitializer.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603100647839</updated>
-      <workItem from="1603100654679" duration="5017000" />
+      <workItem from="1603100654679" duration="5595000" />
     </task>
     <servers />
   </component>
