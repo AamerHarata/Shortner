@@ -18,8 +18,6 @@ D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
-D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -29,9 +27,7 @@ D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -210,7 +206,6 @@ D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\Syste
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
-D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
@@ -386,3 +381,8 @@ D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\ru\Microso
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\GitFolders\Programming\C#\Testing\Shortner\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
